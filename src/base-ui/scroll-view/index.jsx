@@ -1,5 +1,4 @@
 import React, { memo, useEffect, useRef, useState } from "react";
-import PropTypes from "prop-types";
 import { ScrollWrapper } from "./style";
 import IconArrowLeft from "@/assets/svg/icon-arrow-left";
 import IconArrowRight from "@/assets/svg/icon-arrow-right";
@@ -68,6 +67,5 @@ const ScrollView = memo(function ScrollView(props) {
   );
 });
 
-ScrollView.propTypes = {};
 
 export default ScrollView;

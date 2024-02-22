@@ -1,5 +1,4 @@
 import React, { memo, useState } from "react";
-import PropTypes from "prop-types";
 import { FilterWrapper } from "./style";
 import filterData from "@/assets/data/filter_data.json";
 import classNames from "classnames";
@@ -39,6 +38,5 @@ const EntireFilter = memo(function EntireFilter(props) {
   );
 });
 
-EntireFilter.propTypes = {};
 
 export default EntireFilter;

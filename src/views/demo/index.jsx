@@ -1,5 +1,4 @@
 import React, { memo, useState } from "react";
-import PropTypes from "prop-types";
 import Indicator from "@/base-ui/indicator";
 import { DemoWrapper } from "./style";
 
@@ -32,6 +31,5 @@ const Demo = memo(function Demo(props) {
   );
 });
 
-Demo.propTypes = {};
 
 export default Demo;

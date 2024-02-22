@@ -1,5 +1,4 @@
 import React, { memo, useCallback } from "react";
-import PropTypes from "prop-types";
 import { RoomsWrapper } from "./style";
 import { useDispatch, useSelector } from "react-redux";
 import RoomItem from "@/components/room-item";
@@ -39,6 +38,5 @@ const EntireRooms = memo(function EntireRooms(props) {
   );
 });
 
-EntireRooms.propTypes = {};
 
 export default EntireRooms;

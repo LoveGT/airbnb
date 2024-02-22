@@ -1,5 +1,4 @@
 import React, { memo, useEffect, useRef } from "react";
-import PropTypes from "prop-types";
 import { IndicatorWrapper } from "./style";
 
 const Indicator = memo(function (props) {
@@ -32,6 +31,5 @@ const Indicator = memo(function (props) {
   );
 });
 
-Indicator.propTypes = {};
 
 export default Indicator;

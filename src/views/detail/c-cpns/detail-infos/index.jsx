@@ -1,5 +1,4 @@
 import React, { memo } from 'react'
-import PropTypes from 'prop-types'
 import { InfosWrapper } from './style'
 
 const DetailInfos = memo(function DetailInfos(props) {
@@ -10,8 +9,5 @@ const DetailInfos = memo(function DetailInfos(props) {
   )
 })
 
-DetailInfos.propTypes = {
-
-}
 
 export default DetailInfos

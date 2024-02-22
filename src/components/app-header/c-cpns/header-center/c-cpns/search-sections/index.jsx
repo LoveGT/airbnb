@@ -1,5 +1,4 @@
 import React, { memo } from "react";
-import PropTypes from "prop-types";
 import { SectionsWrapper } from "./style";
 
 const SearchSections = memo(function SearchSections(props) {
@@ -24,6 +23,5 @@ const SearchSections = memo(function SearchSections(props) {
   );
 });
 
-SearchSections.propTypes = {};
 
 export default SearchSections;

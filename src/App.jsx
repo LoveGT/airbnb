@@ -9,6 +9,7 @@ export default memo(function App() {
   useScrollTop() // 切换页面回到顶部
   return (
     <div className="app">
+      <div>哈哈哈哈</div>
       <AppHeader />
       <div className="page">{useRoutes(routes)}</div>
       <AppFooter />

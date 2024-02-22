@@ -1,5 +1,5 @@
 import React, { memo, useState } from "react";
-import { CSSTransition, SwitchTransition } from "react-transition-group";
+import { CSSTransition } from "react-transition-group";
 import { CenterWrapper } from "./style";
 import IconSearchBar from "@/assets/svg/icon-search-bar";
 import SearchTitles from "@/assets/data/search_titles";
